@@ -1,0 +1,34 @@
+EECS 3311 B: Workshop Registration Practice
+
+Registration(String id, int hours, boolean inductionCompleted)
+String id()   int hours()   boolean inductionCompleted()   RegistrationStatus status()
+RegistrationStatus: PENDING, CONFIRMED, DECLINED
+WorkshopPolicy: boolean permits(Registration registration)
+DurationPolicy implements WorkshopPolicy
+RegistrationService(WorkshopPolicy policy)
+void confirm(Registration registration)
+recordDecision(boolean permitted) is supplied for the service's controlled state change.
+
+JUnit imports:
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+@Test marks a test method.
+assertEquals(expected, actual); compares expected and observed values.
+assertTrue(condition); checks a condition.
+assertSame(expectedObject, actualObject); checks object identity.
+assertThrows(ExceptionType.class, () -> action()); checks a rejected action.
+Use an actual method call in place of action().
+
+Run from the extracted practice folder, including in VS Code's integrated terminal:
+java -version
+javac -version
+Mac/Linux: bash run-tests.sh
+Windows PowerShell: .\run-tests.cmd
+All platforms: java tools/PracticeRunner.java
+One test class: java tools/PracticeRunner.java StudentTests
+Package work: java tools/PackagePractice.java YOUR_STUDENT_NUMBER
+
+Initial scaffold: 4 successful, 0 failed. The TODO methods are not tested by this initial run.
+After your three requested tests and a correct implementation: at least 7 successful, 0 failed.
+Check results.txt after the latest run and inspect the created ZIP before optional upload.
