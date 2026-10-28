@@ -1,0 +1,38 @@
+EECS 3311 B: Workshop Registration, ungraded JUnit practice
+Run started: 2026-10-28T02:27:59.486108200Z
+Environment: Windows 11, Java 23.0.1+11-39
+java version "23.0.1" 2024-10-15
+Java(TM) SE Runtime Environment (build 23.0.1+11-39)
+Java HotSpot(TM) 64-Bit Server VM (build 23.0.1+11-39, mixed mode, sharing)
+javac 23.0.1
+Compiling production and test sources into a fresh build folder.
+Running JUnit Jupiter.
+.
+'-- JUnit Jupiter [OK]
+  +-- StudentTests [OK]
+  | +-- twoHourRequestWithoutInductionIsConfirmed() [OK]
+  | +-- reject4hourrequest() [OK]
+  | '-- illegalerorr() [OK]
+  '-- ScaffoldTests [OK]
+    +-- rejectsInvalidRegistration() [OK]
+    +-- startsPending() [OK]
+    +-- retainsInputData() [OK]
+    '-- serviceRequiresPolicy() [OK]
+
+Test run finished after 123 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         7 tests found           ]
+[         0 tests skipped         ]
+[         7 tests started         ]
+[         0 tests aborted         ]
+[         7 tests successful      ]
+[         0 tests failed          ]
+
+Runner exit code: 0
+Actual output is saved in results.txt and results\run-8699896783999410629\console.txt
+This command does not upload work.

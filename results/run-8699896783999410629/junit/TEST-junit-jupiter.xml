@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="7" skipped="0" failures="0" errors="0" time="0.046" hostname="MateBook-14" timestamp="2026-10-27T22:28:01">
+<properties>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.separator" value="\"/>
+<property name="java.class.path" value="C:\D Drive\Ali Khan FIles\Ali Khan\Universities\York University\Study\3rd Year\EECS 3311\Labs\Lab0PT2_Starter\lib\junit-platform-console-standalone-6.0.3.jar"/>
+<property name="java.class.version" value="67.0"/>
+<property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+<property name="java.io.tmpdir" value="C:\Users\alikh\AppData\Local\Temp\"/>
+<property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\System32\HWAudioDriver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\apache-maven-3.9.12\bin;C:\Users\alikh\mingw64\x86_64-w64-mingw32\bin;C:\Program Files\Gpg4win\..\GnuPG\bin;C:\Users\alikh\.local\bin;C:\Program Files\nodejs\;C:\Program Files\WSL\;C:\Users\alikh\anaconda3;C:\Users\alikh\anaconda3\Library\mingw-w64\bin;C:\Users\alikh\anaconda3\Library\usr\bin;C:\Users\alikh\anaconda3\Library\bin;C:\Users\alikh\anaconda3\Scripts;C:\Users\alikh\AppData\Local\Microsoft\WindowsApps;C:\Users\alikh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alikh\AppData\Local\Programs\Ollama;C:\Users\alikh\AppData\Local\GitHubDesktop\bin;C:\Users\alikh\AppData\Local\Programs\DockerDesktop\resources\bin;C:\Users\alikh\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\bin;C:\Users\alikh\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;c:\Users\alikh\.vscode\extensions\vscjava.vscode-java-debug-0.60.0\bundled\scripts\noConfigScripts;c:\Users\alikh\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\alikh\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;."/>
+<property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+<property name="java.runtime.version" value="23.0.1+11-39"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="23"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="https://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+<property name="java.version" value="23.0.1"/>
+<property name="java.version.date" value="2024-10-15"/>
+<property name="java.vm.compressedOopsMode" value="Zero based"/>
+<property name="java.vm.info" value="mixed mode, sharing"/>
+<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="23"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="23.0.1+11-39"/>
+<property name="jdk.debug" value="release"/>
+<property name="junit.docs.version" value="6.0.3"/>
+<property name="line.separator" value="&#13;&#10;"/>
+<property name="native.encoding" value="Cp1252"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Windows 11"/>
+<property name="os.version" value="10.0"/>
+<property name="path.separator" value=";"/>
+<property name="stderr.encoding" value="Cp1252"/>
+<property name="stdout.encoding" value="Cp1252"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value="amd64"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="C:\D Drive\Ali Khan FIles\Ali Khan\Universities\York University\Study\3rd Year\EECS 3311\Labs\Lab0PT2_Starter\lib\junit-platform-console-standalone-6.0.3.jar execute --class-path C:\D Drive\Ali Khan FIles\Ali Khan\Universities\York University\Study\3rd Year\EECS 3311\Labs\Lab0PT2_Starter\build\run-183119057454707249 --include-engine junit-jupiter --disable-banner --disable-ansi-colors --details=tree --details-theme=ascii --fail-if-no-tests --reports-dir C:\D Drive\Ali Khan FIles\Ali Khan\Universities\York University\Study\3rd Year\EECS 3311\Labs\Lab0PT2_Starter\results\run-8699896783999410629\junit --scan-class-path"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="Cp1252"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value=""/>
+<property name="user.country" value="US"/>
+<property name="user.dir" value="C:\D Drive\Ali Khan FIles\Ali Khan\Universities\York University\Study\3rd Year\EECS 3311\Labs\Lab0PT2_Starter"/>
+<property name="user.home" value="C:\Users\alikh"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="alikh"/>
+<property name="user.script" value=""/>
+<property name="user.timezone" value="America/New_York"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="rejectsInvalidRegistration()" classname="ScaffoldTests" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ScaffoldTests]/[method:rejectsInvalidRegistration()]
+display-name: rejectsInvalidRegistration()
+]]></system-out>
+</testcase>
+<testcase name="twoHourRequestWithoutInductionIsConfirmed()" classname="StudentTests" time="0.018">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:StudentTests]/[method:twoHourRequestWithoutInductionIsConfirmed()]
+display-name: twoHourRequestWithoutInductionIsConfirmed()
+]]></system-out>
+</testcase>
+<testcase name="reject4hourrequest()" classname="StudentTests" time="0.004">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:StudentTests]/[method:reject4hourrequest()]
+display-name: reject4hourrequest()
+]]></system-out>
+</testcase>
+<testcase name="startsPending()" classname="ScaffoldTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ScaffoldTests]/[method:startsPending()]
+display-name: startsPending()
+]]></system-out>
+</testcase>
+<testcase name="serviceRequiresPolicy()" classname="ScaffoldTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ScaffoldTests]/[method:serviceRequiresPolicy()]
+display-name: serviceRequiresPolicy()
+]]></system-out>
+</testcase>
+<testcase name="illegalerorr()" classname="StudentTests" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:StudentTests]/[method:illegalerorr()]
+display-name: illegalerorr()
+]]></system-out>
+</testcase>
+<testcase name="retainsInputData()" classname="ScaffoldTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ScaffoldTests]/[method:retainsInputData()]
+display-name: retainsInputData()
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>
