@@ -8,10 +8,14 @@ public final class Registration {
             throw new IllegalArgumentException("Use a nonblank ID and hours from 1 to 8.");
         this.id = id; this.hours = hours; this.inductionCompleted = inductionCompleted;
     }
-    public String id() { return id; }
-    public int hours() { return hours; }
-    public boolean inductionCompleted() { return inductionCompleted; }
-    public RegistrationStatus status() { return status; }
+    public String id() {
+        return id; }
+    public int hours() {
+        return hours; }
+    public boolean inductionCompleted() {
+        return inductionCompleted; }
+    public RegistrationStatus status() {
+        return status; }
     void recordDecision(boolean permitted) {
         if (status != RegistrationStatus.PENDING) throw new IllegalStateException("Already decided.");
         status = permitted ? RegistrationStatus.CONFIRMED : RegistrationStatus.DECLINED;

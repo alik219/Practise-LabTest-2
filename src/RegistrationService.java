@@ -6,6 +6,12 @@ public final class RegistrationService {
     }
     public void confirm(Registration registration) {
         // TODO: validate the request, consult the injected policy and record the decision.
+        if (registration == null) {
+            throw new IllegalArgumentException("registration cannot be null");
+        }
+        if (registration.status() != RegistrationStatus.PENDING) {
+            throw new IllegalStateException("Request already has a decision");
+        registration.
         throw new UnsupportedOperationException("Complete RegistrationService.confirm");
     }
 }
