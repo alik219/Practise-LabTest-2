@@ -11,7 +11,7 @@ public final class RegistrationService {
         }
         if (registration.status() != RegistrationStatus.PENDING) {
             throw new IllegalStateException("Request already has a decision");
-        registration.
-        throw new UnsupportedOperationException("Complete RegistrationService.confirm");
+        }
+        registration.recordDecision(policy.permits(registration));
     }
 }
